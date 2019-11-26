@@ -1,0 +1,18 @@
+<div class="page-wrapper">
+    <div class="container">
+        <div class="page-title">
+            <h4>Image Gallery</h4>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let item of (allImages | filterimages:filterBy)">
+                <div class="card gallery-card">
+                    <div class="card-body">
+                        <img class="img-fluid" src="{{ item.url }}" />
+                        <p class="price-tag">Price: {{ item.price }}</p>
+                        <button class="btn btn-primary btn-block" [routerLink]="['/details', item.id, {skipLocationChange: true}]">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
