@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ImagesService } from '../images.service';
 import { ActivatedRoute } from '@angular/router';
+import { User } from '../user';
 
 @Component({
   selector: 'app-image-details',
@@ -10,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ImageDetailsComponent implements OnInit {
 
   image: any
+  public user: User;
 
   constructor(private imageService: ImagesService,
     private route: ActivatedRoute) { }
@@ -18,6 +20,14 @@ export class ImageDetailsComponent implements OnInit {
     this.image = this.imageService.getImage(
       this.route.snapshot.params['id']
     )
+  }
+
+  processForm() {
+    console.log("Will send the confirmation");
+  }
+
+  back() {
+    console.log("back");
   }
 
 }

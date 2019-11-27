@@ -32,3 +32,11 @@
     width: 100%;
     padding: 2rem;
 }
+
+.modal.show {
+    display: block;
+}
+
+.form-button {
+    padding-top: 1rem;
+}

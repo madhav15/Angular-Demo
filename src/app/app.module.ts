@@ -10,6 +10,7 @@ import { ImageGallaryComponent } from './image-gallary/image-gallary.component';
 import { ImageDetailsComponent } from './image-details/image-details.component';
 import { FilterimagesPipe } from './filterimages.pipe';
 import { ImagesService } from './images.service';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 
 
 @NgModule({
@@ -25,6 +26,8 @@ import { ImagesService } from './images.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     NgbModule
   ],
   providers: [ImagesService, FilterimagesPipe],
