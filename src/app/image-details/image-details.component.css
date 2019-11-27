@@ -1,42 +1,9 @@
-.img-container {
-    margin: 5rem;
-    box-shadow: rgb(211, 31, 31) 1px 2px 8px 1px;
-    min-height: 35rem;
-    min-width: 15rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-content: center;
-}
-
-.img-details {
-    margin-top: 1rem;
-    border: 1px solid black;
-    background-color: blanchedalmond;
-}
-
-.desc-text {
-    margin-top: 5rem;
-    padding-top: 1rem;
-    text-align: center;
-    font-weight: bold;
-    color: red;
-}
-
-.price-text {
-    text-align: center;
-    font-weight: bold;
-    color: orangered;
-}
-
-.confirm-button {
-    width: 100%;
-    padding: 2rem;
-}
-
-.modal.show {
-    display: block;
-}
-
-.form-button {
-    padding-top: 1rem;
+.image-details .art-image {
+  min-height: 20rem;
+  min-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+  background-size: cover;
+  margin: 1rem 0 0 0;
 }
