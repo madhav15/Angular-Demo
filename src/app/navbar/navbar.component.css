@@ -1,9 +1,12 @@
-.navbar {
+/* .navbar {
     border: 0.2px solid orange;
     border-bottom: 5px solid orange;
 }
 
 .navbar .logo-image {
-    width: 150px;
+    width: 50px;
     padding-right: 1rem;
+} */
+.nav-item {
+    color: white;
 }
