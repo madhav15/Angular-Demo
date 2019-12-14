@@ -14,3 +14,8 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+.bg-page {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
