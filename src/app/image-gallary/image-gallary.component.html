@@ -10,7 +10,7 @@
                     <div class="card gallery-card">
                         <div class="card-body">
                             <img class="img-fluid" src="{{ item.url }}" />
-                            <p class="price-tag">Price: {{ item.price }}</p>
+                            <p class="price-tag">Price: {{ item.price | currency:"₹" }}</p>
                             <button class="btn btn-primary btn-block" [routerLink]="['/details', item.id]">
                   Order Now
             </button>

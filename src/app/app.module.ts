@@ -13,6 +13,7 @@ import { ImagesService } from "./images.service";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { OrderModalComponent } from "./shared/components/modals/OrderModal/OrderModal.component";
 import { ModalService } from "./shared/components/modals/modal.service";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ModalService } from "./shared/components/modals/modal.service";
     ImageGallaryComponent,
     ImageDetailsComponent,
     OrderModalComponent,
-    FilterimagesPipe
+    FilterimagesPipe,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
