@@ -1,15 +1,23 @@
-<div class="container-fluid">
-    <div class="carousel slide" id="magicCarousel">
-
-        <!-- Angular 8 have some problems with carousel. Issue is open on their github repo. -->
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img src="../../assets/wallpaper.jpg" alt="first" class="d-block w-100">
-                <div class="carousel-caption">
-                    <h3>Nakshatram Arts</h3>
-                    <p>(We Enlight Art)</p>
-                </div>
-            </div>
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+        <img src="../../assets/wallpaper.jpg" alt="Random first slide" class='carouselImage'>
+        <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
-    </div>
-</div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <img src="../../assets/banner.jpg" alt="Random second slide" class='carouselImage'>
+        <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <img src="../../assets/home-img.jpg" alt="Random third slide" class='carouselImage'>
+        <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+    </ng-template>
+</ngb-carousel>

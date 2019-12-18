@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+.product-row {
+    padding: 25px;
+    border: 1px solid salmon;
+    align-content: center;
+}
+
+.product-image-right {
+    clear: both;
+    width: 250px;
+    height: 150px;
+    align-content: center;
+}
+
+.product-image-left {
+    clear: both;
+    width: 250px;
+    height: 150px;
+    align-content: center;
+}
+
+.carouselImage {
+    width: 100%;
+    height: 600px;
+}
+
+::ng-deep .container-fluid {
+    padding: 0 !important;
+}
