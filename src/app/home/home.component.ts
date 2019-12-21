@@ -1,9 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import 'bootstrap';
 import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
-
-
-
+import { WOW } from 'wowjs/dist/wow.min';
 
 @Component({
   selector: 'app-home',
@@ -25,6 +23,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    new WOW().init();
   }
 
   togglePaused() {

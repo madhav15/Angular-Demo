@@ -13,3 +13,31 @@
         </div>
     </div>
 </div>
+<hr>
+<div class="container">
+    <h3 class="font-weight-light text-primary wow slideInLeft" data-wow-duration="2s">Product Specifications:</h3>
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Product Specifications</th>
+                <th>Measurement / Details </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>{{image.name}}</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>{{ image.price | currency:"₹" }}</td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>3D Acrylic Art</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="mt-5"></div>
+<hr>

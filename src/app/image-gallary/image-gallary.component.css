@@ -21,3 +21,9 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+.empty-space {
+    margin-bottom: 20%;
+    background-color: white;
+    height: 200px;
+}
