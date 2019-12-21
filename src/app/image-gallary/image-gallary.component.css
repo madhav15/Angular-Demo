@@ -1,22 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #145;
+}
+
 .gallery-card {
     margin-bottom: 1rem;
     text-align: center;
-    background-color: blanchedalmond;
+    color: white;
+    background-color: darkcyan;
 }
 
 .gallery-card img {
     width: 100%;
     height: 17rem;
-    backface-visibility: visible;
 }
 
 .gallery-card .price-tag {
     padding: 0.5rem 0;
     font-size: 1.2rem;
     font-weight: 500;
-}
-
-.bg-page {
-    background-repeat: no-repeat;
-    background-size: cover;
 }

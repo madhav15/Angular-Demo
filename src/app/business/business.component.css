@@ -1,0 +1,9 @@
+.business-card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 520px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}

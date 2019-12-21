@@ -22,7 +22,7 @@ export class OrderModalComponent implements OnInit {
   setForm() {
     this.orderForm = this.fb.group({
       name: ["", [Validators.required]],
-      email: ["", [Validators.required]],
+      email: ["", [Validators.required, Validators.email]],
       phone: ["", [Validators.required]],
       address: ["", [Validators.required]]
     });
