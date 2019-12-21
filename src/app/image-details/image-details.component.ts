@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ImagesService } from "../images.service";
 import { ActivatedRoute } from "@angular/router";
 import { User } from "../user";
-import { ModalService } from "../shared/components/modals/modal.service";
+import { ModalService } from "../modal.service";
 
 @Component({
   selector: "app-image-details",

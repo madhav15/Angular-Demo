@@ -1,9 +1,13 @@
 .image-details .art-image {
-  min-height: 20rem;
-  min-width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-content: center;
-  background-size: cover;
-  margin: 1rem 0 0 0;
+    min-height: 20rem;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    background-size: cover;
+    margin: 1rem 0 3rem 0;
+}
+
+.button:hover {
+    background-color: rgb(245, 192, 18);
 }

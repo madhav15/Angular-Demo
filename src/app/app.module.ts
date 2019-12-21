@@ -11,8 +11,8 @@ import { ImageDetailsComponent } from "./image-details/image-details.component";
 import { FilterimagesPipe } from "./filterimages.pipe";
 import { ImagesService } from "./images.service";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { OrderModalComponent } from "./shared/components/modals/OrderModal/OrderModal.component";
-import { ModalService } from "./shared/components/modals/modal.service";
+import { OrderModalComponent } from "./OrderModal/OrderModal.component";
+import { ModalService } from "./modal.service";
 import { HomeComponent } from './home/home.component';
 import { BusinessComponent } from './business/business.component';
 

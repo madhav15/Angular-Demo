@@ -1,29 +1,15 @@
 <div class="container image-details">
-  <div class="row">
-    <div class="col-sm-3">
-      <div
-        [ngStyle]="{ 'background-image': 'url(' + image.url + ')' }"
-        class="art-image"
-      ></div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div [ngStyle]="{ 'background-image': 'url(' + image.url + ')' }" class="art-image"></div>
+        </div>
+        <div class="col-sm-9">
+            <h3 class="desc-text pt-4">{{ image.name }}</h3>
+            <h4 class="price-text pt-4 text-primary">Price. {{ image.price | currency:"₹" }}</h4>
+            <p>
+                Nakshatram Arts brings this beautiful {{ image.name }} for home and office use. Order Now at lower price. <br> beautiful 3D Acrylic Design with color emitting LEDs make this piece of art more beautiful.
+            </p>
+            <button type="button" class="btn btn-success button" (click)="openModal()" data-toggle="modal" data-target="#myModal">Confirm Order</button>
+        </div>
     </div>
-    <div class="col-sm-9">
-      <h3 class="desc-text pt-4">{{ image.name }}</h3>
-      <h4 class="price-text pt-4 text-primary">Rs. {{ image.price }}</h4>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolor
-        adipisci assumenda quasi aliquam tempora blanditiis voluptas perferendis
-        non laudantium, facere accusantium nesciunt aut repellat fugiat
-        recusandae sequi ratione eum.
-      </p>
-      <button
-        type="button"
-        class="btn btn-primary"
-        (click)="openModal()"
-        data-toggle="modal"
-        data-target="#myModal"
-      >
-        Confirm Order
-      </button>
-    </div>
-  </div>
 </div>
