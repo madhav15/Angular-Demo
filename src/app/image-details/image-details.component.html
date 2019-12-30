@@ -1,43 +1,48 @@
-<div class="container image-details">
-    <div class="row">
-        <div class="col-sm-3">
-            <div [ngStyle]="{ 'background-image': 'url(' + image.url + ')' }" class="art-image"></div>
-        </div>
-        <div class="col-sm-9">
-            <h3 class="desc-text pt-4">{{ image.name }}</h3>
-            <h4 class="price-text pt-4 text-primary">Price. {{ image.price | currency:"₹" }}</h4>
-            <p>
-                Nakshatram Arts brings this beautiful {{ image.name }} for home and office use. Order Now at lower price. <br> beautiful 3D Acrylic Design with color emitting LEDs make this piece of art more beautiful.
-            </p>
-            <button type="button" class="btn btn-success button" (click)="openModal()" data-toggle="modal" data-target="#myModal">Confirm Order</button>
+<div class="container-fluid details-page">
+    <div class="container image-details">
+        <div class="row">
+            <div class="col-sm-3">
+                <div [ngStyle]="{ 'background-image': 'url(' + image.url + ')' }" class="art-image"></div>
+            </div>
+            <div class="col-sm-9">
+                <h3 class="desc-text pt-4">{{ image.name }}</h3>
+                <h4 class="price-text pt-4 text-primary">Price. {{ image.price | currency:"₹" }}</h4>
+                <p>
+                    Nakshatram Arts brings this beautiful {{ image.name }} for home and office use. Order Now at lower
+                    price. <br> beautiful 3D Acrylic Design with color emitting LEDs make this piece of art more
+                    beautiful.
+                </p>
+                <button type="button" class="btn btn-success button" (click)="openModal()" data-toggle="modal"
+                    data-target="#myModal">Confirm Order</button>
+            </div>
         </div>
     </div>
+    <hr>
+    <div class="container">
+        <h3 class="font-weight-light text-primary wow slideInLeft" data-wow-duration="2s">Product Specifications:</h3>
+        <table class="table table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th>Product Specifications</th>
+                    <th>Measurement / Details </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>{{image.name}}</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>{{ image.price | currency:"₹" }}</td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td>3D Acrylic Art</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="mt-5"></div>
+    <hr>
 </div>
-<hr>
-<div class="container">
-    <h3 class="font-weight-light text-primary wow slideInLeft" data-wow-duration="2s">Product Specifications:</h3>
-    <table class="table table-bordered">
-        <thead class="thead-light">
-            <tr>
-                <th>Product Specifications</th>
-                <th>Measurement / Details </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Name</td>
-                <td>{{image.name}}</td>
-            </tr>
-            <tr>
-                <td>Price</td>
-                <td>{{ image.price | currency:"₹" }}</td>
-            </tr>
-            <tr>
-                <td>Type</td>
-                <td>3D Acrylic Art</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="mt-5"></div>
-<hr>

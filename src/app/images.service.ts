@@ -10,14 +10,14 @@ export class ImagesService {
   allImages = [];
 
   getImages() {
-    return this.allImages = this.Imagesdelatils.slice(0);
+    return this.allImages = this.imageDetails.slice(0);
   }
 
   getImage(id: number) {
-    return this.Imagesdelatils.slice(0).find(Images => Images.id == id)
+    return this.imageDetails.slice(0).find(Images => Images.id == id)
   }
 
-  Imagesdelatils = [
+  imageDetails = [
     { "id": 1, "price": "799", "url": "assets/images/1-ganesh.jpg", "name": "Ganesha Art" },
     { "id": 2, "price": "699", "url": "assets/images/2-swami.jpg", "name": "Swami Samarth Art" },
     { "id": 3, "price": "799", "url": "assets/images/3-chrismas.jpg", "name": "Chrismas Art" },

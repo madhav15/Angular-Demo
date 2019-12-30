@@ -1,5 +1,6 @@
 .navbar {
-  background: #ffffff;
+  background-color: #05d5ec !important;
+  border-bottom: 3px solid orange;
 }
 .navbar .navbar-toggler {
   border: 1px solid #252525;

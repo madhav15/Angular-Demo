@@ -13,3 +13,7 @@
 .business-card .shadow img {
   width: 100%;
 }
+
+.business-card .contact-title {
+  padding-top: 1rem;
+}

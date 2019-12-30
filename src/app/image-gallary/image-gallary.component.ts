@@ -10,15 +10,14 @@ export class ImageGallaryComponent implements OnChanges  {
   
 
   images:any[];    
-  filterBy?: string = 'all'    
-  allImages:any[] = [];    
+  threeDArtImages:any[] = [];    
     
   constructor(private imageService: ImagesService) {    
-    this.allImages = this.imageService.getImages();    
+    this.threeDArtImages = this.imageService.getImages();    
   }   
    
   ngOnChanges() {    
-    this.allImages = this.imageService.getImages();    
+    this.threeDArtImages = this.imageService.getImages();    
   }
 
 }

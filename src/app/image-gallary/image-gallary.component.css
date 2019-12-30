@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #145;
+    background: #96cbd1;
 }
 
 .gallery-card {
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 1rem;
     text-align: center;
-    color: white;
-    background-color: darkcyan;
 }
 
 .gallery-card img {
@@ -22,8 +22,16 @@ body {
     font-weight: 500;
 }
 
-.empty-space {
-    margin-bottom: 20%;
-    background-color: white;
-    height: 200px;
+.container .page-title {
+    padding: 1rem;
+}
+
+
+.card-body {
+    background: #73d1db;
+    border: 0.5px solid black;
+}
+
+button:hover {
+    background-color: rgb(146, 172, 53) !important;
 }

@@ -1,86 +1,88 @@
-<ngb-carousel class="main-carousel" #carousel interval="2000" [pauseOnHover]="pauseOnHover">
-    <ng-template ngbSlide>
-        <img src="../../assets/wallpaper.jpg" alt="Random first slide" class="carousel-image" />
-        <div class="carousel-caption animate zoomInUp">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-    </ng-template>
-    <ng-template ngbSlide>
-        <img src="../../assets/banner.jpg" alt="Random second slide" class="carousel-image" />
-        <div class="carousel-caption">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </ng-template>
-    <ng-template ngbSlide>
-        <img src="../../assets/home-img.jpg" alt="Random third slide" class="carousel-image" />
-        <div class="carousel-caption">
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-    </ng-template>
-    <ng-template ngbSlide>
-        <img src="../../assets/1-banner.jpg" alt="Random third slide" class="carousel-image" />
-        <div class="carousel-caption">
-            <h3>Fourth slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-    </ng-template>
-</ngb-carousel>
+<div class="container-fluid product-summary">
+    <div class="container">
+        <ngb-carousel class="main-carousel" #carousel interval="2000" [pauseOnHover]="pauseOnHover">
+            <ng-template ngbSlide>
+                <img src="../../assets/wallpaper.jpg" alt="Random first slide" class="carousel-image" />
+                <div class="carousel-caption animate zoomInUp">
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <img src="../../assets/banner.jpg" alt="Random second slide" class="carousel-image" />
+                <div class="carousel-caption">
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <img src="../../assets/home-img.jpg" alt="Random third slide" class="carousel-image" />
+                <div class="carousel-caption">
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <img src="../../assets/1-banner.jpg" alt="Random third slide" class="carousel-image" />
+                <div class="carousel-caption">
+                    <h3>Fourth slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="container">
+        <h2 class="text-center font-weight-bold my-5 wow zoomInUp">See Products Summary</h2>
 
-<div class="container">
-    <h2 class="text-center font-weight-bold my-5 wow zoomInUp">See Products Summary</h2>
-
-    <div class="row">
-        <div class="col-sm-6 wow slideInLeft">
-            <div class="card mb-4 border-0 shadow">
-                <img class="animated zoomIn"
-                    src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
-                    class="card-img-top" alt="..." />
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">3D LED Light Designs</h5>
-                    <div class="card-text text-black-50">Acrylic Designs</div>
+        <div class="row">
+            <div class="col-sm-6 wow slideInLeft">
+                <div class="card mb-4 border-0 shadow">
+                    <img class="animated zoomIn"
+                        src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
+                        class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">3D LED Light Designs</h5>
+                        <div class="card-text text-black-50">Acrylic Designs</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-sm-6  wow slideInRight">
-            <div class="card mb-4 border-0 shadow">
-                <img class="animated zoomInUp"
-                    src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
-                    class="card-img-top" alt="..." />
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Internal Hanging Lights</h5>
-                    <div class="card-text text-black-50">For Hotel/Offices</div>
+            <div class="col-sm-6  wow slideInRight">
+                <div class="card mb-4 border-0 shadow">
+                    <img class="animated zoomInUp"
+                        src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
+                        class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Internal Hanging Lights</h5>
+                        <div class="card-text text-black-50">For Hotel/Offices</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-sm-6 wow slideInLeft">
-            <div class="card mb-4 border-0 shadow">
-                <img class="animated zoomInUp"
-                    src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
-                    class="card-img-top" alt="..." />
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Night Lamps</h5>
-                    <div class="card-text text-black-50">Night Lamps</div>
+            <div class="col-sm-6 wow slideInLeft">
+                <div class="card mb-4 border-0 shadow">
+                    <img class="animated zoomInUp"
+                        src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
+                        class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Night Lamps</h5>
+                        <div class="card-text text-black-50">Night Lamps</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-sm-6 wow slideInRight">
-            <div class="card mb-4 border-0 shadow">
-                <img class="animated zoomInUp"
-                    src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
-                    class="card-img-top" alt="..." />
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Sign Board</h5>
-                    <div class="card-text text-black-50">Beautiful Sign Boards</div>
+            <div class="col-sm-6 wow slideInRight">
+                <div class="card mb-4 border-0 shadow">
+                    <img class="animated zoomInUp"
+                        src="https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg"
+                        class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Sign Board</h5>
+                        <div class="card-text text-black-50">Beautiful Sign Boards</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <app-business></app-business>

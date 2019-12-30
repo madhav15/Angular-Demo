@@ -20,9 +20,7 @@ export class ImageDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    console.log("Hello" + this.route.snapshot.params["id"]);
     this.image = this.imageService.getImage(this.route.snapshot.params["id"]);
-    console.log(this.image);
   }
 
   processForm() {
