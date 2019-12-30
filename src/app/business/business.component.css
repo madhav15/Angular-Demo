@@ -1,9 +1,15 @@
+/* business-card */
 .business-card {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 520px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1px solid black;
+  background: #ecfdff;
+}
+.business-card .shadow {
+  margin: 2rem auto;
+  display: block;
+  text-align: center;
+}
+.business-card .col-center-content {
+  margin: 3rem auto;
+}
+.business-card .shadow img {
+  width: 100%;
 }

@@ -1,39 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
+/* .main-carousel */
+.main-carousel .carousel-image {
+  width: 100%;
+  height: 100vh;
 }
-
-.summary {
-    margin-top: 30px;
-}
-
-.carouselImage {
-    width: 100%;
-    height: 650px;
-}
-
-::ng-deep .container-fluid {
-    padding: 0 !important;
-}
-
-.carousel-caption {
-    margin-bottom: 20px;
-}
-
-.product-image {
-    padding: 5px;
-    border: 1px solid black;
-}
-
-.summary img {
-    width: 60%;
-    height: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.card-body {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+.main-carousel .carousel-caption {
+  margin-bottom: 20px;
 }
