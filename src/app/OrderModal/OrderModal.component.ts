@@ -16,7 +16,6 @@ export class OrderModalComponent implements OnInit {
 
   ngOnInit() {
     this.setForm();
-    console.log("here", this.config);
   }
 
   setForm() {
@@ -29,6 +28,7 @@ export class OrderModalComponent implements OnInit {
   }
 
   onSubmit() {
+    window.confirm("Do you want to continue");
     console.log("form: ", this.orderForm.value);
     console.log("form: ", this.orderForm.controls.name.value);
     console.log("Config", this.config);
