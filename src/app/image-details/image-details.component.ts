@@ -23,14 +23,6 @@ export class ImageDetailsComponent implements OnInit {
     this.image = this.imageService.getImage(this.route.snapshot.params["id"]);
   }
 
-  processForm() {
-    console.log("Will send the confirmation");
-  }
-
-  back() {
-    console.log("back");
-  }
-
   openModal() {
     this.modalSerive.showOrderModal(this.image);
   }

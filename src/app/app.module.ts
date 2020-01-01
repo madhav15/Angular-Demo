@@ -15,6 +15,10 @@ import { OrderModalComponent } from "./OrderModal/OrderModal.component";
 import { ModalService } from "./modal.service";
 import { HomeComponent } from './home/home.component';
 import { BusinessComponent } from './business/business.component';
+import { OrderConfirmPanelComponent } from './order-confirm-panel/order-confirm-panel.component';
+import { NgxSpinnerModule } from "ngx-spinner";  
+import { HttpClientModule } from '@angular/common/http'; 
+
 
 @NgModule({
   declarations: [
@@ -27,16 +31,19 @@ import { BusinessComponent } from './business/business.component';
     OrderModalComponent,
     FilterimagesPipe,
     HomeComponent,
-    BusinessComponent
+    BusinessComponent,
+    OrderConfirmPanelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
+    NgxSpinnerModule,
+    HttpClientModule
   ],
-  providers: [ImagesService, FilterimagesPipe, ModalService],
+  providers: [ImagesService, FilterimagesPipe, ModalService, ],
   bootstrap: [AppComponent],
   entryComponents: [OrderModalComponent]
 })
