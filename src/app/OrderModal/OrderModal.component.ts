@@ -42,10 +42,9 @@ export class OrderModalComponent implements OnInit {
      * On Success redirect to above thank you page.
      * On Error show error message.
      */
-    this.spinnerService.show();
     let customer: Customer = this.createCustomerData();
     if (customer.email != null || customer.email != "") {
-      
+      this.spinnerService.show();
       this.http.post(this.server_url, customer).subscribe(result => {
         console.log(result);
         this.spinnerService.hide();

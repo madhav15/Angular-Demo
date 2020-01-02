@@ -1,1 +1,12 @@
-<p>order-confirm-panel works!</p>
+<div class="wrapper">
+    <div class="container thanks-message">
+        <h3 class="text-center text-justify text-primary">
+            Your order is submitted. Our representative will call you on phone number you just provided.
+        </h3>
+        <br>
+        <h3 class="text-center text-primary text-justify mt-2">When contacted, kindly confirm your details so that we can proceed further.</h3>
+        <h5 class="text-center text-justify text-danger mt-3">If you need any help, please contact us on {{ contactNumber }}</h5>
+
+        <button class="btn btn-lg btn-primary" [routerLink]="['/']">Continue</button>
+    </div>
+</div>

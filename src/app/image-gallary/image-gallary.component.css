@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #96cbd1;
+    background-color: #cff3f7;
 }
 
 .gallery-card {
@@ -25,7 +25,6 @@ body {
 .container .page-title {
     padding: 1rem;
 }
-
 
 .card-body {
     background: #73d1db;

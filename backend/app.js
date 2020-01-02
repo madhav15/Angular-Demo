@@ -22,7 +22,7 @@ var transporter = nodeMailer.createTransport({
     }
 });
 
-// Add new Post
+// Create Order Post API
 app.post('/createOrder', async(request, response) => {
     console.log("New Request ");
 

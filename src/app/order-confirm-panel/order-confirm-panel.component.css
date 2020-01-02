@@ -1,0 +1,16 @@
+.wrapper {
+    border: 0.1px solid orange;
+    background-color: #cff3f7;
+}
+
+.thanks-message {
+    height: 70%;
+    margin: 10% 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.thanks-message button {
+    margin: 5% 42% 5% 42%;
+}
