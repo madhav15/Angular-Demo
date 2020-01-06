@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrderConfirmPanelComponent implements OnInit {
 
-  private contactNumber : string = '+91 8080586933';
+  public contactNumber : string = '+91 8080586933';
   constructor() { }
 
   ngOnInit() {

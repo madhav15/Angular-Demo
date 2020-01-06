@@ -16,7 +16,7 @@ export class OrderModalComponent implements OnInit {
   @Input() config;
   orderForm: FormGroup;
 
-  private server_url: string = "http://localhost:3000/createOrder";
+  private server_url: string = "http://15.206.149.95:3000/createOrder";
 
   constructor(public modal: NgbActiveModal, public fb: FormBuilder, public router: Router,
     public spinnerService: NgxSpinnerService, public http: HttpClient) { }

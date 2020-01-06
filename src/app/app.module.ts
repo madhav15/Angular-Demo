@@ -4,7 +4,6 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { NavbarComponent } from "./navbar/navbar.component";
-import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { ImageGallaryComponent } from "./image-gallary/image-gallary.component";
 import { ImageDetailsComponent } from "./image-details/image-details.component";
@@ -24,7 +23,6 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     NavbarComponent,
-    HeaderComponent,
     FooterComponent,
     ImageGallaryComponent,
     ImageDetailsComponent,
